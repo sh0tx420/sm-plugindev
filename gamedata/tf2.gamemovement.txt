@@ -1,0 +1,55 @@
+"Games"
+{
+	"tf"
+	{
+		"Addresses"
+		{
+			"ProcessMovement"
+			{
+				"linux"
+				{
+					"signature" "CTFGameMovement::ProcessMovement"
+					"offset"	"84"
+				}
+				"windows"
+				{
+					"signature" "CTFGameMovement::ProcessMovement"
+					"offset"	"70"
+				}
+			}
+		}
+
+		"Functions"
+		{
+			"CTFGameMovement::ProcessMovement"
+			{
+				"signature" "CTFGameMovement::ProcessMovement"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"ignore"
+
+				"arguments"
+				{
+					"player"
+					{
+						"type"	"cbaseentity" // CBasePlayer *
+					}
+					"mv"
+					{
+						"type"	"objectptr" // CMoveData *
+					}
+				}
+			}
+		}
+
+		"Signatures"
+		{
+			"CTFGameMovement::ProcessMovement"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFGameMovement15ProcessMovementEP11CBasePlayerP9CMoveData"
+				"windows"	"\x55\x8B\xEC\x56\x57\x8B\x7D\x08\x8B\xF1\x85\xFF\x74\x2A\x53"
+			}
+		}
+	}
+}
