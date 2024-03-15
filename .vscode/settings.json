@@ -1,0 +1,12 @@
+{
+    "sourcepawn.AuthorName": "sh0tx",
+    "sourcepawn.GithubName": "sh0tx420",
+    "SourcePawnLanguageServer.spcompPath": "C:\\Users\\OMISTAJA\\Desktop\\progaming\\sourcemod\\bin\\spcomp.exe",
+    "SourcePawnLanguageServer.includesDirectories": [
+        "C:\\Users\\OMISTAJA\\Desktop\\progaming\\sourcemod\\includes\\base",
+        "C:\\Users\\OMISTAJA\\Desktop\\progaming\\sourcemod\\includes\\custom"
+
+    ],
+    "sourcepawn.outputDirectoryPath": "/mnt/c/Users/OMISTAJA/Desktop/progaming/sourcemod/plugins/",
+    "sourcepawn.MainPathCompilation": false
+}
