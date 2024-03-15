@@ -169,11 +169,14 @@ public Action CheckTime(Handle timer, any nig) {
 
 public Action ExitServer(Handle timer) {
     // Force clients to rejoin server (trol) (maybe make a cvar or something to disable this functionality?)
+    // BUG: when clients reconnect too fast they will get an item server error
+    /*
     for (int i = 1; i <= MaxClients; i++) {
         if (IsClientInGame(i) && !IsFakeClient(i)) {
             ClientCommand(i, "retry");   // get pranked
         }
     }
+    */
 
     // Cleanup and exit server
     KillTimer(timer);
