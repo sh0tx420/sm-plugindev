@@ -1,0 +1,13 @@
+"CountryShow"
+{
+    "messages"
+    {
+        "playerjoin" "{GREEN}{PLAYERNAME} {DEFAULT}joined from {GREEN}{PLAYERCOUNTRY} {DEFAULT}({LIGHTGREEN}{PLAYERCOUNTRYSHORT}{DEFAULT})"
+        "playerdisc" "{GREEN}{PLAYERNAME} {DEFAULT}disconnected: {DISC_REASON}"
+    }
+    "messages_admin"
+    {
+        "playerjoin" "{GREEN}{PLAYERNAME} {DEFAULT}joined from {GREEN}{PLAYERCOUNTRY} {DEFAULT}({LIGHTGREEN}{PLAYERCOUNTRYSHORT}{DEFAULT}) | IPv4: {GREEN}{PLAYERIP}"
+        "playerdisc" "{GREEN}{PLAYERNAME} {DEFAULT}disconnected: {DISC_REASON}"
+    }
+}
